@@ -20,7 +20,7 @@ button.addEventListener('click', function(){
                 if(idLock && usernameLock){
                     localStorage.setItem('User_id', idLock);
                     localStorage.setItem('User_username', usernameLock);
-                    window.location.href = '/templates/index.html'
+                    window.location.href = '/yTipot/templates/index.html'
                 }
             }else{
                 console.log(status)
