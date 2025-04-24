@@ -1,0 +1,49 @@
+
+
+:root {
+    --main_color: #FFCEA8; 
+    --acent_color: #B53625; 
+    --bg_color_firs: #153A44; 
+    --bg_color_sec: #DDA972; 
+    --avtive_color:#B88B46; 
+    --font:"Unbounded"; 
+}
+
+
+
+.informationMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    margin-top: 120px;
+    align-items: center;
+    font-family: var(--font);
+    h1{
+        text-align: center;
+        font-weight: 300;
+        color: var(--bg_color_firs);
+    }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 111px;
+        .Main{
+            font-size: 24px;
+            color: var(--acent_color);
+        }
+        .SignUp{
+            width: 257px;
+            height: 63px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: var(--main_color);
+            background-color: var(--bg_color_firs);
+            border-radius: 12px;
+        }
+    }
+    button {
+        background-color: #153A4400;
+    }
+}

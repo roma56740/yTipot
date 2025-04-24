@@ -1,0 +1,128 @@
+:root {
+    --main_color: #FFCEA8;
+    --acent_color: #B53625;
+    --bg_color_firs: #153A44;
+    --bg_color_sec: #DDA972;
+    --avtive_color:#B88B46;
+    --font:"Unbounded";
+}
+
+.block_diogram_main_El{
+    width: 1400px;
+    height: 400px;
+    background-color: var(--avtive_color);
+    display: flex;
+    border-radius: 8px;
+    padding: 20px;
+    align-items: start;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+
+.block_diogram_main_El h2{
+    color: var(--bg_color_firs);
+    font-weight: 700;
+}
+
+.div_btn_prosmotr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 205px;
+    overflow: hidden;
+    height: 25px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--bg_color_firs);
+}
+
+.btns_view_HowMuch,
+.btns_view_HowMuchCountry,
+.BlockBtnTimeAVG,
+.btns_Pages_HowMuch{
+    color: var(--main_color);
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns_view_HowMuch:hover,
+.btns_view_HowMuchCountry:hover,
+.BlockBtnTimeAVG:hover,
+.btns_Pages_HowMuch:hover{
+    background-color: var(--acent_color);
+    cursor: pointer;
+}
+
+
+.block_views_tabels,
+.block_views_tabels_pl,
+.block_views_tabels_plcace,
+.block_views_tabels_Desck,
+.block_views_tabelsTimeAVG,
+.block_views_tabelsPage{
+    min-width: 100%;
+    border-radius: 8px;
+    height: 340px;
+    margin-top: 20px;
+    background-color: var(--bg_color_firs);
+    max-height: 310px;
+    background-color: var(--avtive_color);
+    border: 2px solid var(--main_color);
+}
+
+.canvas_con {
+    width: 100%;
+    height: 100%;
+}
+
+
+.pl_block_diogram_main_El {
+    height: 370px;
+}
+
+
+.Abount_main_text_Site{
+    color: var(--bg_color_firs);
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Abount_main_text_Site b{
+    text-decoration: underline;
+}
+
+.Abount_main_text_Site span{
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--acent_color);
+    text-decoration: underline;
+}
+
+@media (max-width:1400px){
+    .block_diogram_main_El{
+        max-width: 98%;
+        padding: 0px;
+    }
+    .block_views_tabels{
+        max-width: 98%;
+    }
+    .canvas_con{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .block_diogram_main_El h2{
+        margin: 10px;
+    }
+    .div_btn_prosmotr{
+        margin-left: 10px;
+    }    
+    .block_diogram_main_El{
+        height: auto;
+        padding-bottom: 10px;
+    }
+}
