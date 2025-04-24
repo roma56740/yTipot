@@ -24,7 +24,7 @@ button.addEventListener('click', function(){
         req.onload = () => {
             let status = JSON.parse(req.responseText).status
             if ( status === 'good' ){
-                window.location.href = '/templates/login.html'
+                window.location.href = '/yTipot/templates/login.html'
             }else{
                 console.log("error")
             }
